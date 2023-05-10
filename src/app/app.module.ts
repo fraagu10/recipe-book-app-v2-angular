@@ -5,11 +5,13 @@ import { HttpClientModule } from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RandomRecipeComponent } from './random-recipe/random-recipe.component';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RandomRecipeComponent
+    RandomRecipeComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
